@@ -1,0 +1,585 @@
+*{
+    margin:0%;
+    font-family: Arial;
+     border: border-box;  /*add border area with box area  */
+    
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;  /*for displaying all div in one line */
+    align-items: center;
+    justify-content: space-evenly; /*content will spent even space */
+}
+.amazonlogo{
+    height: 50px;
+    width: 135px;
+    
+}
+.logo{
+    background-image: url("images//Amazon-Logo.png");
+    background-size: cover;
+    height: 32px; /*40*/
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 108px; /*135*/
+}
+.border{         /* for border around box*/
+    border: 1.5px solid transparent;
+}
+.border:hover{    /*for show at the time of hower*/
+    border: 1.5px solid white;
+}
+
+/*address box*/
+.address{
+    height: 50px;
+    width: 220px;
+    align-items: center;
+padding-left: 18px;
+}
+.text1{
+    font-size: 0.8rem;   /*font will change according to the rout */
+   margin-left: 20px;
+   color: #cccccc;
+   margin-top: 7px; /* text in middle */
+}
+.addresslogo{
+  display: flex;  /*in same line */
+    width: 220px;
+    height: 60px;
+}
+.text2{
+    font-size: 0.8rem;
+    margin-left: 5px;
+    font-weight: 700;  /*bold text */
+}
+.border{         /* for border around box*/
+    border: 1.5px solid transparent;
+}
+.border:hover{    /*for show at the time of hower*/
+    border: 1.5px solid white;
+}
+
+/*address box */
+.searchbar{
+    width: 620px;
+    height: 40px;
+    color: #cccccc;
+    background-color: white;
+    display: flex;
+    border-radius: 4px;
+   
+}
+.opt{
+    color: #cccccc;
+    border-radius: 2px;
+    width: 50px;
+    text-align: center; /*text in center */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;  /*bydefault border will remove */
+}
+.search{
+    border: none;
+    width:100%;  /*remainning width will involve */ 
+}
+.all{
+    width: 45px;
+    height: 40px;
+
+}
+.icon{
+    width: 45px;
+    height: 40px;
+    z-index: 1;
+    color: black;
+    background-color: rgb(194, 131, 15);
+    display: flex;
+    justify-content: center; /*x axis centre */
+    align-items: center;     /*y axis centre */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: 12px;
+
+}
+
+/*account box */
+.account{
+    height: 50px;
+    width: 130px;
+    font: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none; 
+   
+}
+.atext1{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-top: 7px;
+}
+.op{
+    background-color: #0f1111;
+   color: white;
+   border: none;
+   font-size: 0.8rem;
+   font-weight: 700;
+}
+.border{         /* for border around box*/
+    border: 1.5px solid transparent;
+}
+.border:hover{    /*for show at the time of hower*/
+    border: 1.5px solid white;
+}
+/*return ans order */
+.return{
+    height: 50px;
+    width: 120px;
+    font-size: 0.8rem;
+    color: #cccccc;
+    justify-content: center;
+    text-align: center; /* text in centre */
+    align-items: center;
+    
+    border: none; 
+}
+.ret{
+    margin-top: 10px;
+}
+.ord{
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 700;
+}
+.border{         /* for border around box*/
+    border: 1.5px solid transparent;
+}
+.border:hover{    /*for show at the time of hower*/
+    border: 1.5px solid white;
+}
+
+/*cart*/
+.c-icon i{
+     height: 20px;
+    width: 50px;
+     display: flex;
+    justify-content: center; /*x axis centre */
+   align-items: center;  
+    
+}
+.cart{
+    height:50px;
+    width: 90px;
+    font-size: 1.2rem;
+    padding-top: 9px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+/*panal*/
+
+.panal{
+    height:40px;
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    align-items: center;  /*vertical align */
+    justify-content: space-evenly; /*horizontal align */
+}
+.panal-ops p{      /* applying only on paragraph tag */
+     display: inline;  /*display in single line */
+     margin-left: 25px;
+}
+.panal-ops{
+    width:60%;
+    font-size: 0.9rem;
+}
+.img{
+    height:40px;
+}
+
+
+/*background image */
+.hero-section{
+    background-image: url("images//herosec.jpg");
+    background-size: cover;  /*image will cover whole screen */
+    height: 400px;  
+
+}
+
+/*shopping option */
+.shop-option{
+    z-index: 1;
+    height: 1250px;
+    /*flex-wrap: wrap; /*content will display in one-by one form */
+    justify-content: space-evenly;
+    background-color: papayawhip;
+}
+.box{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 50px;
+    
+}
+.box div p{
+    color: #0f1111;
+}
+/*box1*/
+.box1-c{
+    margin-right: 15px;
+    margin-left: 28px;
+}
+.box1-c img{
+    height: 100px;
+    width: 110px;   
+    /* background-size: cover;
+    margin-bottom: 10px; */
+}
+.img11 {
+    display: flex;
+    margin-top: 12px;
+}
+.img12 {
+    display: flex;
+}
+#i1{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#i3{
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+.box1-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+#pp1{
+    font-size: 0.7rem;
+    color: #007185;
+    
+}
+/*box 2*/
+.box2-c{
+    margin-right: 15px;
+    margin-left: 28px;
+}
+.box2-c img{
+    height: 100px;
+    width: 110px;   
+    /* background-size: cover;
+    margin-bottom: 10px; */
+}
+.img13 {
+    display: flex;
+    margin-top: 12px;
+}
+.img14 {
+    display: flex;
+}
+#i11{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#i33{
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+.box2-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+#pp2{
+    font-size: 0.7rem;
+    color: #007185;
+    
+}
+/*box 3*/
+.box3-c{
+    margin-right: 15px;
+    margin-left: 28px;
+}
+.box3-c img{
+    height: 90px;
+    width: 110px;   
+    /* background-size: cover;
+    margin-bottom: 10px; */
+}
+.img15 {
+    display: flex;
+    margin-top: 12px;
+}
+.img16 {
+    display: flex;
+}
+#i111{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#i333{
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+.box3-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+#pp3{
+    font-size: 0.7rem;
+    color: #007185;
+}
+/*box 4*/
+.box4-c{
+    margin-right: 15px;
+    margin-left: 28px;
+}
+.box4-c img{
+    height: 100px;
+    width: 110px;   
+    /* background-size: cover;
+    margin-bottom: 10px; */
+}
+.img17 {
+    display: flex;
+    margin-top: 12px;
+}
+.img18 {
+    display: flex;
+}
+#i1111{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#i3333{
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+.box4-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+#pp4{
+    font-size: 0.7rem;
+    color: #007185;
+}
+/*box5*/
+.box5-c{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.img5{
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.box5-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+/*box 6*/
+.box6-c{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.img6{
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.box6-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+/*box 7*/
+.box7-c{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.img7{
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.box7-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+/*box 8*/
+.box8-c{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.img8{
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.box8-c p{
+    font-size: 0.7rem;
+    color: #007185;
+}
+.hori1{
+    display: flex; 
+    z-index: 1;
+    /*flex-wrap: wrap; /*content will display in one-by one form */
+    justify-content: space-evenly;
+    background-color: papayawhip;
+}
+.hori2{
+    display: flex; 
+    z-index: 1;
+    /*flex-wrap: wrap; /*content will display in one-by one form */
+    justify-content: space-evenly;
+    background-color: papayawhip;
+}
+/* horizontal*/
+
+.horizontal{
+    height: 310px;
+    width: 91%;
+    background-color: #fff;
+    margin: 0px 0px 50px 50px ;
+    padding: 0px 0px 15px 30px ;
+    
+}
+.horizontal div{
+    margin-left: 10px;
+    width: 195px;
+    height: 100px;
+    margin-top: 50px;
+    display: inline;
+}
+.horizontal h2{
+    margin: 0px 20px 0px 0px ;
+    padding: 20px 0px 15px 30px ;
+}
+.horizontal h4{
+    font-size: 0.9rem;
+    padding: 0px 0px 0px 10px ;
+    margin-left: 20px;
+    font-weight: 0%;
+    color: #007185;
+}
+/* footer panal */
+.f-panal{
+    height: 50px;
+    background-color:#3c4e67;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+}
+.f-list1{
+    background-color: #232f3e;
+    display: flex;
+    height: 300px;
+    width: 1473px;
+    color: white;
+    justify-content: space-evenly;
+  
+}
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+ul h4{
+    color: white;
+}
+ul{
+    margin-top: 30px;
+}
+
+.f-list2{
+    height: 150px;
+    color: white;
+    background-color: #232f3e ;
+   border-top:0.2px solid white;
+}
+.f-logo{
+    /* z-index: 1; */
+    background-image: url("images//Amazon-Logo.png"); 
+    height: 31px;
+    width: 105px;
+    background-size: cover;
+    margin-left: 700px;
+    margin-top: 25px;
+}
+.l-list {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+.l-list a{
+    font-size: 0.8rem;
+    margin-right: 8px;
+}
+.sp{
+    margin-left: 450px;
+
+}
+.f-list3{
+    height: 200px;
+    color: white;
+    background-color: #131A22;
+   border-top:0.2px solid #131A22;
+}
+.f-list3 ul a{
+    display: block;
+    font-size: 0.7rem;
+    color: #DDDDDD;
+    margin-bottom: -10px;
+}
+.f-list3 div{
+    margin-bottom: 0%;
+}
+.f-list3 ul h4{
+    color: hwb(0 100% 0%);
+    font-size: 0.7rem;
+}
+.f-list3 ul{
+   
+    font-size: 0.5rem;
+}
+.l1{
+    display: flex;
+    font-size: 0.5rem;
+    margin-left: 270px;
+   
+}
+.l1 ul{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 0.5rem;
+  
+}
+.l2 ul{
+    margin-left: 70px;
+    margin-top: 30px;
+   
+    font-size: 0.5rem;
+}
+.l2{
+    display: flex;
+    margin-left: 280px;
+}
